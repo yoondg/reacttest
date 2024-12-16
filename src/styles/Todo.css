@@ -1,0 +1,43 @@
+/* common */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+/* app.js */
+.Wrap {
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.082);
+  background-color: #fff;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.Wrap h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Wrap .inputContainer {}
+
+/* todolist.js */
+/* todoitem.js */
+
+.TodoItem span {
+  /* text-decoration: line-through; */
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 0 10px;
+}
